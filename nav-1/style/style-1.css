@@ -23,6 +23,7 @@ header {
     align-items: center;
     padding: 0px 5%;
     border: 1px solid yellow;
+    border-radius: 50px;
 }
 
 a {
@@ -55,4 +56,16 @@ ul {
     border: 1px solid black;
     border-radius: 50px;
     font-size: 90%;
+    background-color: yellow;
+    transition: all 0.3s ease-in-out  ;
 }
+
+.cta:hover {
+    border: 1px solid black;
+    /* border-radius: 50px; */
+    font-size: 100%;
+    transform: rotate(360deg);
+    background-color: yellowgreen;
+    /* transition: all 0.3s ; */
+}
+
