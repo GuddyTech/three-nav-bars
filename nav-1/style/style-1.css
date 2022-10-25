@@ -1,18 +1,13 @@
-/* * {
-    
-} */
 
 body {
-    background-image: url(./../../nav-1/images/pexels-jakub-novacek-924824.jpg);
-    /* height: 200px;
-    width: 1; */
+    /* color: green; */
+    background-color: purple;
 }
 
 .nav-1-img {
     height: 60px;
     width: 80px;
-    border: 1px solid red;
-    
+    /* border: 1px solid red; */
 }
 
 header {
@@ -21,25 +16,53 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5%;
-    border: 1px solid yellow;
+    padding: 0.5% 5%;
+    border: 2px solid yellow;
     border-radius: 50px;
 }
 
 a {
-    text-decoration: none;
-    font-size: 17px;
+    text-decoration: none;   
 } 
 
+.a-services {
+    color: white;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out  ;
+}
+
+.a-services:hover {
+    color: whitesmoke;
+    font-size: 17.5px;
+}
+
+.a-projects {
+    color: white;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out  ;
+}
+
+.a-projects:hover {
+    color: whitesmoke;
+    font-size: 17.5px;
+}
+
+.a-about {
+    color: white;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out  ;
+}
+
+.a-about:hover {
+    color: whitesmoke;
+    font-size: 17.5px;
+}
+
 ul {
-    border: 1px solid green;
-    
-    /* align-items: center; */
-    display: flex;
+    /* border: 1px solid green; */
     /* align-content: space-between; */
+    display: flex;
     padding: 0px 5px;
-    
-    
 }
 
  li {
@@ -47,13 +70,13 @@ ul {
     padding: 0px 5px;
     justify-items: center;
     margin: 0px 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* justify-content: center; */
-
 }
 
 .cta {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: none;
     border-radius: 50px;
     font-size: 90%;
     background-color: yellow;
@@ -61,11 +84,21 @@ ul {
 }
 
 .cta:hover {
-    border: 1px solid black;
-    /* border-radius: 50px; */
+    /* border: 1px solid black; */
     font-size: 100%;
     transform: rotate(360deg);
-    background-color: yellowgreen;
-    /* transition: all 0.3s ; */
+    background-color: yellowgreen; 
+     
+}
+
+.section-1 {
+    margin: 0px 30%;
+    padding: 0px 6%;
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+.p-nav-review {
+    color: rgb(242, 235, 235);
 }
 
